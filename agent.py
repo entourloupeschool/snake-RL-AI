@@ -175,7 +175,7 @@ def train(LR, GAMMA, END_N_GAME=None, R_EXPO_EXPLO=79, model_path=None, trainer=
             if score > record:
                 record = score
                 if record > 30:
-                    file_name = f"model-{datetime.datetime.now()}-lr{agent.lr}gam{agent.gamma}rt{agent.ratio}.pth"
+                    file_name = f"model-{datetime.datetime.now()}-lr{agent.lr}gam{agent.gamma}rt{agent.ratio_exploration_exploitation}.pth"
                     agent.model.save(file_name)
 
             print('Game', agent.n_games, 'Score', score, 'Record:', record, 'Epsilon:', agent.epsilon)

@@ -13,6 +13,7 @@ Enhancements
 Acknowledgements
 
 The foundational code for this project was based on Patrick Loeber's snake game, which can be found at youtube.com/watch?v=L8ypSXwyBds. Additionally, steps followed from a YouTube tutorial by #FreeCodeCamp were crucial in building upon the original game.
+
 Future Improvements
 
 There is always room for more optimization. Future work could include a more systematic search for the best network architecture or refining the reward function to further improve the game's performance.
